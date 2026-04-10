@@ -17,7 +17,7 @@ Marketing landing page for RootMap — iOS nutrition app for Gen Z. No framework
 - Google Fonts: EB Garamond (serif only, no sans-serif ever)
 - Waitlist emails → Loops (`https://app.loops.so`)
 - GitHub: `JoonEom/rootmap-landingpage`
-- Hosted on Vercel: `https://rootmap-landingpage.vercel.app`
+- Hosted on Vercel: `https://www.getrootmap.com` (also `https://rootmap-landingpage.vercel.app`)
 
 ---
 
@@ -75,4 +75,4 @@ All real images are in `pictures/`. Filenames:
 
 ---
 
-*Last updated: April 9, 2026*
+*Last updated: April 10, 2026*
