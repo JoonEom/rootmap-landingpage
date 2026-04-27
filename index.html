@@ -10,7 +10,6 @@
   <link rel="icon" type="image/svg+xml" href="pictures/transparent-logo.svg" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<script src="config.js"></script>
 <body>
 
   <!-- ── NAV ── -->
@@ -320,18 +319,18 @@
 
       <div class="fade-up delay-3">
         <div class="newsletter-form-container">
-          <form class="newsletter-form" action="https://app.loops.so/api/newsletter-form/cmns3g9qi00rr0iw9zlbztjgd" method="POST" style="display:flex;flex-direction:row;align-items:center;justify-content:center;width:100%;">
-            <input class="newsletter-form-input" placeholder="your@email.com" required type="email" name="newsletter-form-input" style="font-family:Georgia,serif;color:#2D1200;font-size:14px;margin:0 10px 0 0;width:100%;max-width:300px;min-width:100px;background:#FBF0E6;border:1px solid rgba(180,120,60,0.2);box-sizing:border-box;box-shadow:rgba(0,0,0,0.05) 0px 1px 2px;border-radius:100px;padding:10px 20px;">
-            <button type="submit" class="newsletter-form-button" style="background:#C4622D;font-size:14px;color:#FBF0E6;font-family:Georgia,serif;display:flex;width:min-content;max-width:300px;white-space:nowrap;height:40px;align-items:center;justify-content:center;flex-direction:row;padding:9px 22px;box-shadow:rgba(0,0,0,0.05) 0px 1px 2px;border-radius:100px;text-align:center;font-style:normal;font-weight:700;line-height:20px;border:none;cursor:pointer;">Join Waitlist</button>
-            <button type="button" class="newsletter-loading-button" style="background:#C4622D;font-size:14px;color:#FBF0E6;font-family:Georgia,serif;display:none;width:min-content;max-width:300px;white-space:nowrap;height:40px;align-items:center;justify-content:center;flex-direction:row;padding:9px 22px;box-shadow:rgba(0,0,0,0.05) 0px 1px 2px;border-radius:100px;text-align:center;font-style:normal;font-weight:700;line-height:20px;border:none;cursor:pointer;">Please wait...</button>
+          <form class="newsletter-form" action="https://app.loops.so/api/newsletter-form/cmns3g9qi00rr0iw9zlbztjgd" method="POST">
+            <input class="newsletter-form-input" placeholder="your@email.com" required type="email" name="newsletter-form-input" />
+            <button type="submit" class="newsletter-form-button">Join Waitlist</button>
+            <button type="button" class="newsletter-loading-button">Please wait...</button>
           </form>
-          <div class="newsletter-success" style="display:none;align-items:center;justify-content:center;width:100%;">
-            <p class="newsletter-success-message" style="font-family:Georgia,serif;color:#7A8C3A;font-size:15px;">Rooted. We'll see you at launch. 🌱</p>
+          <div class="newsletter-success">
+            <p class="newsletter-success-message">Rooted. We'll see you at launch. 🌱</p>
           </div>
-          <div class="newsletter-error" style="display:none;align-items:center;justify-content:center;width:100%;">
-            <p class="newsletter-error-message" style="font-family:Georgia,serif;color:rgb(185,28,28);font-size:14px;">Oops! Something went wrong, please try again</p>
+          <div class="newsletter-error">
+            <p class="newsletter-error-message">Oops! Something went wrong, please try again</p>
           </div>
-          <button class="newsletter-back-button" type="button" style="color:#7A5535;font-family:Georgia,serif;font-size:14px;margin:10px auto;text-align:center;display:none;background:transparent;border:none;cursor:pointer;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">&larr; Back</button>
+          <button class="newsletter-back-button" type="button">&larr; Back</button>
         </div>
 
         <p class="waitlist-fine">No spam. No fluff. Just the launch.</p>
