@@ -41,13 +41,14 @@ Typography: EB Garamond Bold for headings, EB Garamond for body, EB Garamond Ita
 ## Sections (in order)
 1. **Nav** — sticky, blur, centered tab links for all sections (no CTA button)
 2. **Hero** — headline, tagline, single "Get Early Access" CTA, two phone screenshots
-3. **Problem** — old way vs RootMap contrast cards with auto-rotating carousel
-4. **How It Works** — 3 steps: Scan → Translate → Optimize
-5. **Six Zones** — Glow · Build · Focus · Energy · Gut · Restore
-6. **App Preview** — dark section, feature list, phone screenshot
-7. **Mission** — centered copy block
-8. **Waitlist** — Loops email capture form with loading/success/error states
-9. **Footer**
+3. **Problem** — old way vs RootMap contrast cards with auto-rotating carousel (5 slides)
+4. **How It Works** — 4 steps: Personalize → Describe → Translate → Optimize
+5. **Six Zones** — Glow · Build · Focus · Energy · Gut · Restore (full outcome pills per zone)
+6. **Made For You** — personalization section: outcome customization copy + two phone screenshots
+7. **App Preview** — dark section, feature list, phone screenshot
+8. **Mission** — centered copy block
+9. **Waitlist** — Loops email capture form with loading/success/error states
+10. **Footer**
 
 ---
 
@@ -62,7 +63,8 @@ Typography: EB Garamond Bold for headings, EB Garamond for body, EB Garamond Ita
 All real images are in `pictures/`. Filenames:
 - `transparent-logo.svg` — nav + footer logo
 - `mvpview.png`, `foodview2.png` — hero phone screenshots
-- `scanview.png`, `foodview.png`, `cardview.png` — How It Works step images
+- `personalize.PNG`, `scanview.png`, `foodview.png`, `cardview.png` — How It Works step images (steps 1–4)
+- `customize1.jpg`, `customize2.PNG` — Made For You section phone screenshots
 - `homeview.png` — App Preview section
 
 ---
